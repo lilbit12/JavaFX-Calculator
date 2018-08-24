@@ -1,1 +1,69 @@
-/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+	-fx-background-color: #011623;
+}
+
+.button{
+    -fx-background-color:
+        #b2b0b0;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 7 30 7 30;
+    -fx-text-fill: #242d35;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+    -fx-background-radius: 0
+
+    }
+
+.button:hover{
+	-fx-background-color:
+        #6ecc90;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 7 30 7 30;
+    -fx-text-fill: #242d35;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 35px;
+    -fx-text-fill: white;
+	-fx-background-radius: 0
+}
+
+ .text-field {
+    -fx-border-color:grey;
+    -fx-border-width: 2;
+   	-fx-border-radius: 1;
+   	-fx-text-fill: #242d35;
+
+}
+.text-field:hover {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+#operation-button {
+	-fx-background-color:
+        #ed8712;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 7 30 7 30;
+    -fx-text-fill: #242d35;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+    -fx-background-radius: 0
+
+}
+
+#operation-button:hover {
+	-fx-background-color:
+        #ed8712;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 7 30 7 30;
+    -fx-text-fill: #242d35;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 35px;
+    -fx-text-fill: white;
+    -fx-background-radius: 0
+
+}
