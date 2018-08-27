@@ -8,11 +8,11 @@ public class Model {
 			return (double)Math.round((number1 + number2) *100.0)/100.0;
 		case "-":
 			return (double)Math.round((number1 - number2) *100.0)/100.0;
-		case "/":
+		case "÷":
 			if(number2 == 0)
 				return 0;
 			return (double)Math.round((number1 / number2) *100.0)/100.0;
-		case"*":
+		case"×":
 			return (double)Math.round((number1 * number2) *100.0)/100.0;
 		}
 

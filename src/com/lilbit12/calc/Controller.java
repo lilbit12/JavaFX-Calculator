@@ -14,7 +14,7 @@ public class Controller {
 	private double number1 = 0;
 	private boolean start = true;
 	private String[] numbers = {"1","2","3","4","5","6","7","8","9","0",","};
-	private String[] operators = {"/", "*", "-", "+"};
+	private String[] operators = {"÷", "×", "-", "+"};
 
 	private Model model = new Model();
 
