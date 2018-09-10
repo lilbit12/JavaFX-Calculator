@@ -1,5 +1,5 @@
 # JavaFX-Calculator
-Simple JavaFX calculator with MVC architecture, Numpad functionality and Apple skin.
+Simple JavaFX IOS-style calculator with MVC architecture.
 
 
 
